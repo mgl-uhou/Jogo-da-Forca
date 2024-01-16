@@ -589,6 +589,10 @@ video {
   display: flex;
 }
 
+.hidden {
+  display: none;
+}
+
 .h-28 {
   height: 7rem;
 }
@@ -739,8 +743,8 @@ video {
     position: absolute;
   }
 
-  .max-sm\:bottom-7 {
-    bottom: 1.75rem;
+  .max-sm\:bottom-0 {
+    bottom: 0px;
   }
 
   .max-sm\:bottom-auto {
@@ -751,23 +755,11 @@ video {
     left: 0px;
   }
 
-  .max-sm\:bottom-0 {
-    bottom: 0px;
-  }
-
   .max-sm\:m-2 {
     margin: 0.5rem;
   }
 
-  .max-sm\:mb-12 {
-    margin-bottom: 3rem;
-  }
-
   .max-sm\:mt-28 {
     margin-top: 7rem;
-  }
-
-  .max-sm\:h-full {
-    height: 100%;
   }
 }

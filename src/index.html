@@ -28,7 +28,7 @@
                 <label for="tentativa">Sua tentativa: </label>
                 <input type="text" id="tentativa" class="border-b border-black focus:border-red-700 w-14 outline-none text-sm text-center" autocomplete="off">
                 
-                <button id="btn" onclick="testarLetra(event)" class="px-1 mx-2">Enter</button>
+                <button id="btn" onclick="testarLetra(event)" class="px-1 mx-2 hidden">Enter</button>
             </form>
             
         </div>
@@ -36,8 +36,8 @@
         <span id="char"></span>
         <span id="msg" class="m-5 p-4 text-xl"></span>
 
-        
         <button id="deNovo" style="display: none;" onclick="deNovo()" class="bg-gray-200 rounded ring ring-gray-300 px-1 max-sm:absolute max-sm:bottom-0 max-sm:left-0">Jogar de Novo</button>
+
     </div>
 
     <div id="usadas" class="m-5 px-2 absolute right-0 bottom-7 max-sm:bottom-auto max-sm:m-2 w-48 h-28 min-h-24 border-l border-orange-500 rounded">

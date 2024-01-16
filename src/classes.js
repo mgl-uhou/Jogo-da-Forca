@@ -26,7 +26,7 @@ class Palavra {
         return _;
     }
 
-    setTeste(teste, jogo) /* Setter que testa se a letra digitada pelo usuário faz parte da própria palavra */ {
+    setTeste(teste, jogo, fim) /* Setter que testa se a letra digitada pelo usuário faz parte da própria palavra */ {
         const msg = document.getElementById('msg');
         const img = document.getElementById('img');
 

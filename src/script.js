@@ -45,8 +45,10 @@ document.getElementById('char').textContent = escolhida.getCaracteres().join(' '
 
 const testarLetra = (event) => {
     event.preventDefault(); // Evita o comportamento padrão do formulário
-    escolhida.setTeste(document.getElementById('tentativa').value.toUpperCase(), jogo);
-    document.getElementById('tentativa').value = "";
+    if(jogo.getAndamento() == true){
+        escolhida.setTeste(document.getElementById('tentativa').value.toUpperCase(), jogo,);
+        document.getElementById('tentativa').value = "";
+    }
     return false;
 }
 window.testarLetra = testarLetra;
