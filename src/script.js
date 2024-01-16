@@ -25,6 +25,15 @@ switch (tema){
     case 5:
         localTema.textContent = "Esportes";
         break;
+    case 6:
+        localTema.textContent = "Capitais";
+        break;
+    case 7:
+        localTema.textContent = "Objetos";
+        break;
+    case 8:
+        localTema.textContent = "Ossos do Corpo Humano";
+        break;
     default:
         console.error('Error');
 }

@@ -19,7 +19,8 @@ const listaPalavras = [
         "VENEZUELA", 
         "GUIANA", 
         "JAMAICA", 
-        "SUECIA"
+        "SUECIA",
+        "ESTADOSUNIDOS"
     ],
     [
         'AZUL',
@@ -117,6 +118,67 @@ const listaPalavras = [
         "CAVALGADA",
         "CANOAGEM",
         "KARATE"
+    ],
+    [
+        "BRASILIA",
+        "TOKYO",
+        "CANBERRA",
+        "OTTAWA",
+        "ROMA",
+        "MOSCOU",
+        "CAIRO",
+        "BUENOSAIRES",
+        "DELHI",
+        "PEQUIM",
+        "BERLIM",
+        "MADRI",
+        "PARIS",
+        "LONDRES",
+        "CIDADEDOMEXICO",
+        "LISBOA",
+        "JOANESBURGO",
+        "KINGSTON",
+        "ESTOCOLMO",
+        "WASHINGTON",
+        "MOSCOU",
+        "TÓQUIO",
+        "ANCARA",
+        "BANGKOK",
+        "COPENHAGUE"
+    ],
+    [
+        "CANETA",
+        "LAPIS",
+        "CADEIRA",
+        "TELEFONE",
+        "CACHORRO",
+        "CADERNO",
+        "ABAJUR",
+        "ÓCULOS",
+        "BOLA",
+        "MESA",
+        "RELÓGIO",
+        "GUITARRA",
+        "CHAVE",
+        "ESPELHO",
+        "TRAVESSEIRO",
+        "CAMERA",
+        "FERRODEPASSAR",
+        "BINOCULOS",
+        'NOTEBOOK'
+    ],
+    [
+        "CRANIO",
+        "RADIO",
+        "VERTEBRA",
+        "FEMUR",
+        "TIBIA",
+        "FALANGE",
+        "PELVE",
+        "PATELA",
+        "MANDIBULA",
+        "CLAVICULA",
+        "ESCAPULA"
     ]
 ];
 
