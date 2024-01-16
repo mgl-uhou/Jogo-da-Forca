@@ -9,25 +9,29 @@
 
     <h1> Jogo da Forca</h1>
 
-    <img src="Forca.png" alt="Forca">
+    <img id="img" src="Forca.png" alt="Forca">
     
+    <h2>Tema:</h2>
+    <span id="tema"></span>
+
     <form>
 
         <label for="tentativa">Sua tentativa: </label>
         <input type="text" id="tentativa">
-        <button>Enter</button>
+        <button id="btn" onclick="testarLetra(event)">Enter</button>
 
     </form>
 
-    <span id="char">__ __ __ __ __ __ __ __</span>
-    <span id="msg"> Essa letra não existe na palavra.</span>
+    <span id="char"></span>
+    <span id="msg"></span>
+
+    <button id="deNovo" style="display: none;" onclick="deNovo()">Jogar de Novo</button>
 
     <div id="usadas">
         <h2>Letras usadas:</h2>
-        <p id="Letras">
-            a, b, c, d, e, f, g, h, i, j, k, l, m, n, o, p, q, r, s, t, u, v, w, x, y, z
-        </p>
+        <p id="Letras"></p>
     </div>
 
+    <script type="module" src="script.js"></script>
 </body>
 </html>
