@@ -50,7 +50,7 @@ class Palavra {
         if(contem === false && teste != this.getPalavra()){
             msg.textContent = 'Essa letra não existe na palavra escolhida.';
             this._erros++
-            img.src = `Forca${this.getErros()}.png`
+            img.src = `./Forcas/Forca${this.getErros()}.png`
         }
         if (teste === this.getPalavra() || this._caracteres.join('') === this._palavra.join('')){
             jogo.setAndamento(false);
