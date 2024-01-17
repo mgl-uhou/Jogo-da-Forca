@@ -53,7 +53,8 @@ const testarLetra = (event) => {
 }
 window.testarLetra = testarLetra;
 
-const deNovo = () => {
+const deNovo = (event) => {
+    event.preventDefault(); // Evita o comportamento padrão do formulário
     location.reload();
 };
 window.deNovo = deNovo;

@@ -585,6 +585,10 @@ video {
   display: block;
 }
 
+.inline-block {
+  display: inline-block;
+}
+
 .flex {
   display: flex;
 }
@@ -739,20 +743,8 @@ video {
 }
 
 @media not all and (min-width: 640px) {
-  .max-sm\:absolute {
-    position: absolute;
-  }
-
-  .max-sm\:bottom-0 {
-    bottom: 0px;
-  }
-
   .max-sm\:bottom-auto {
     bottom: auto;
-  }
-
-  .max-sm\:left-0 {
-    left: 0px;
   }
 
   .max-sm\:m-2 {

@@ -62,8 +62,7 @@ class Palavra {
             msg.classList.add('text-yellow-600');
             msg.innerHTML = `Você ganhou! A palavra é <strong>${this._palavra.join('')}</strong>`;
             document.getElementById('tentativa').readOnly = true;
-            document.getElementById('btn').style.display = 'none';
-            document.getElementById('deNovo').style.display = 'block';
+            document.getElementById('deNovo').style.display = 'inline-block';
         }
         else if(this.getErros() == 6){
             jogo.setAndamento(false);
@@ -71,8 +70,7 @@ class Palavra {
             msg.classList.add("text-red-500");
             msg.innerHTML = `Você perdeu! A palavra é <strong>${this._palavra.join('')}</strong>`;
             document.getElementById('tentativa').readOnly = true;
-            document.getElementById('btn').style.display = 'none';
-            document.getElementById('deNovo').style.display = 'block';
+            document.getElementById('deNovo').style.display = 'inline-block';
         }
 
         document.getElementById('char').innerHTML = teste === this.getPalavra() ? this.getPalavra() : this.getCaracteres().join(' ');
