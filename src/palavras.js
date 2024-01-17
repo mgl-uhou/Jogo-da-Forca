@@ -121,7 +121,6 @@ const listaPalavras = [
     ],
     [
         "BRASILIA",
-        "TOKYO",
         "CANBERRA",
         "OTTAWA",
         "ROMA",
@@ -141,7 +140,7 @@ const listaPalavras = [
         "ESTOCOLMO",
         "WASHINGTON",
         "MOSCOU",
-        "TÓQUIO",
+        "TOQUIO",
         "ANCARA",
         "BANGKOK",
         "COPENHAGUE"
@@ -157,7 +156,7 @@ const listaPalavras = [
         "ÓCULOS",
         "BOLA",
         "MESA",
-        "RELÓGIO",
+        "RELOGIO",
         "GUITARRA",
         "CHAVE",
         "ESPELHO",
